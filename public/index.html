@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- 🎨 Include Geist font for minimalist modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">  <!-- ⚙️ Basic HTML meta and setup -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- 🏷️ Page title -->
+  <title>Long Dinh | Personal Website</title>
+
+  <!-- 🎨 Link to CSS file -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- 🖤 Favicon or manifest (optional) -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#000000" />
+</head>
+<body>
+
+  <!-- 🧭 NAVBAR: Black bar at top, white links -->
+  <nav class="nav-container">
+    <div class="container">
+      <!-- Logo on the left -->
+      <div class="logo">LONG</div>
+      <div class="navbar-flex">
+        <!-- Navigation links in the center -->
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Projects</a>
+            <ul class="dropdown-content">
+              <li><a href="project1.html">Personal Project 1</a></li>
+              <li><a href="project2.html">Personal Project 2</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Research</a>
+            <ul class="dropdown-content">
+              <li><a href="research1.html">Research Project 1</a></li>
+              <li><a href="research2.html">Research Project 2</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- Social links on the right -->
+        <ul class="social-links">
+          <li><a href="https://linkedin.com/in/sy-long-dinh-b7886b200/" target="_blank" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a></li>
+          <li><a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a></li>
+          <li><a href="https://www.facebook.com/sy.long.75" target="_blank" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          </a></li>
+          <li><a href="#" aria-label="Blog">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 🌟 HERO SECTION: white background, black text, below navbar -->
+  <section id="hero">
+    <div class="container hero-content">
+      <!-- 📝 Text content -->
+      <div class="hero-text">
+        <p>Hi there!</p>
+        <h1>I'm <span>Long,</span></h1>
+        <h2></h2>
+        <p class="hero-sub">
+  a Teaching Assistant, Computer Science graduate, and MBA holder. <br> <br> Currently working at British University of Vietnam.       </p>
+        <a href="#projects" class="btn">Check out my Work</a>
+      </div>
+
+      <!-- 📸 Image on the right -->
+      <div class="hero-image">
+        <img src="images/background.jpg" alt="Long Dinh" />
+      </div>
+    </div>
+  </section>
+
+  <!-- 🌑 DARK SECTION: black background for contrast -->
+  <main>
+    <section class="dark-section">
+  </main>
+
+  <!-- 👤 ABOUT SECTION -->
+  <section id="about" class="dark-section">
+    <div class="container">
+      <h2 class="about-landing-header">Welcome to my World!</h2>
+      <p class="about-landing-desc">
+        Or, as I like to call it: my little immortal corner of the internet — a digital space where I document my journey navigating this complicated thing called life (the professional, the personal, the messy, and the&nbsp;meaningful)
+      </p>
+      <div class="about-icons">
+        <span title="Global Citizen">
+          <!-- Earth SVG -->
+          <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M2 12h20"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z"/>
+          </svg>
+        </span>
+        <span title="Tech Enthusiast">
+          <!-- Laptop SVG -->
+          <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+            <rect x="3" y="4" width="18" height="12" rx="2"/>
+            <path d="M2 18h20"/>
+            <path d="M8 20h8"/>
+          </svg>
+        </span>
+        <span title="Sport Lover">
+          <!-- User's Soccer Ball Image -->
+          <img src="images/soccer-ball.jpg" alt="Soccer Ball" class="about-icon-img" width="32" height="32" />
+        </span>
+      </div>
+      <div class="read-more-container">
+        <a href="about.html" class="btn btn-secondary">Read More About Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 💻 PROJECTS SECTION -->
+  <section id="projects" class="light-section">
+    <div class="container">
+      <h2 class="projects-title">Personal Projects</h2>
+      <p class="projects-subtitle">A showcase of what I build for fun, learning, and impact.</p>
+      <div class="projects-grid">
+        <!-- Project Card 1 -->
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/project1.jpg" alt="Project 1" />
+          </div>
+          <div class="project-content">
+            <h3>Personal Project Name</h3>
+            <p>Brief description of the project and its impact. What technologies were used and what problems did it solve?</p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="project1.html" class="btn">View Project</a>
+              <a href="#" class="btn btn-outline">Source Code</a>
+            </div>
+          </div>
+        </article>
+        <!-- Project Card 2 -->
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/project2.jpg" alt="Project 2" />
+          </div>
+          <div class="project-content">
+            <h3>Personal Project Name</h3>
+            <p>Brief description of the project and its impact. What technologies were used and what problems did it solve?</p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Django</span>
+              <span>PostgreSQL</span>
+            </div>
+            <div class="project-links">
+              <a href="project2.html" class="btn">View Project</a>
+              <a href="#" class="btn btn-outline">Source Code</a>
+            </div>
+          </div>
+        </article>
+        <!-- Add more project cards as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 📚 RESEARCH PROJECTS SECTION -->
+  <section id="research-projects" class="light-section">
+    <div class="container">
+      <h2 class="projects-title">Research Projects</h2>
+      <p class="projects-subtitle">My academic and research work that explores new ideas and solves real problems.</p>
+      <div class="projects-grid">
+        <!-- Research Project Card 1 -->
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/research1.jpg" alt="Research Project 1" />
+          </div>
+          <div class="project-content">
+            <h3>Research Project Title</h3>
+            <p>Brief description of the research project, its goals, and findings. What methods or technologies were used?</p>
+            <div class="project-tags">
+              <span>Quantitative</span>
+              <span>Python</span>
+              <span>JASP</span>
+            </div>
+            <div class="project-links">
+              <a href="research1.html" class="btn">Read More</a>
+              <a href="#" class="btn btn-outline">Publication</a>
+            </div>
+          </div>
+        </article>
+        <!-- Research Project Card 2 -->
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/research2.jpg" alt="Research Project 2" />
+          </div>
+          <div class="project-content">
+            <h3>Research Project Title</h3>
+            <p>Brief description of the research project, its goals, and findings. What methods or technologies were used?</p>
+            <div class="project-tags">
+              <span>Qualitative</span>
+              <span>Mentorship</span>
+              <span>Education</span>
+            </div>
+            <div class="project-links">
+              <a href="research2.html" class="btn">Read More</a>
+              <a href="#" class="btn btn-outline">Publication</a>
+            </div>
+          </div>
+        </article>
+        <!-- Add more research project cards as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 🛠️ SKILLS SECTION -->
+  <section id="skills" class="dark-section concise-skills">
+    <div class="container">
+      <h2 class="skills-headline">Jack of some trades. Student of life.</h2>
+      <p class="skills-summary">
+        I don't know everything — but here's a growing list of things I've learned (and am still learning).<br>
+        From supporting students, building digital things, to exploring how tech can be more human.
+      </p>
+      <div class="skills-icon-grid">
+        <div class="skill-icon-card">
+          <img src="images/python-logo.png" alt="Python" />
+          <div class="skill-label">Python</div>
+          <div class="skill-sublabel">Data science stuff: scripting, visualisation</div>
+        </div>
+        <div class="skill-icon-card">
+          <img src="images/java-logo.png" alt="Java" />
+          <div class="skill-label">Java</div>
+          <div class="skill-sublabel">Backend, REST APIs, Spring Boot</div>
+        </div>
+        <div class="skill-icon-card">
+          <img src="images/csharp-logo.png" alt="C#" />
+          <div class="skill-label">C#</div>
+          <div class="skill-sublabel">Beginner, app logic</div>
+        </div>
+        <div class="skill-icon-card">
+          <img src="images/linux-logo.png" alt="Linux" />
+          <div class="skill-label">Linux</div>
+          <div class="skill-sublabel">Server config, Bash, networking</div>
+        </div>
+        <div class="skill-icon-card">
+          <img src="images/htmlcssjs-logo.png" alt="Web" />
+          <div class="skill-label">Web Dev</div>
+          <div class="skill-sublabel">HTML, CSS, Javascript (beginner), Firebase</div>
+        </div>
+        <div class="skill-icon-card">
+          <img src="images/jasp-logo.png" alt="Data Analytics" />
+          <div class="skill-label">Data Analytics</div>
+          <div class="skill-sublabel">JASP, Stats Analysis, SQL, Minitab</div>
+        </div>
+        <div class="skill-icon-card">
+          <img src="images/softwaretesting-logo.png" alt="QA & Testing" />
+          <div class="skill-label">QA & Testing</div>
+          <div class="skill-sublabel">Manual testing, QA process documentation, report</div>
+        </div>
+        <div class="skill-icon-card">
+          <img src="images/academia-logo.png" alt="Academia" />
+          <div class="skill-label">Academia</div>
+          <div class="skill-sublabel">Research, Teaching/Support, Mentorship</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📬 CONTACT SECTION -->
+  <section id="contact" class="light-section">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+          <div class="contact-details">
+            <a href="mailto:your.email@example.com" class="contact-item">
+              <span class="icon">📧</span>
+              <span>your.email@example.com</span>
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" class="contact-item">
+              <span class="icon">💼</span>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/yourusername" class="contact-item">
+              <span class="icon">📦</span>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🎯 FOOTER -->
+  <footer class="dark-section">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>Long</h3>
+          <p>Building digital experiences with purpose</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="#" aria-label="GitHub">📦</a>
+          <a href="#" aria-label="LinkedIn">💼</a>
+          <a href="#" aria-label="Twitter">🐦</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Long Dinh. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
