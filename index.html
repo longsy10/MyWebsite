@@ -1,89 +1,106 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
-
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/12.12.0/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/12.12.0/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/12.12.0/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/12.12.0/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/12.12.0/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/12.12.0/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/12.12.0/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/12.12.0/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/12.12.0/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/12.12.0/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Long Dinh | Personal Portfolio</title><meta name="description" content="Personal portfolio of Long Dinh, featuring projects, research work, teaching, and the journey behind the work."/><link rel="canonical" href="/long-dinh.html"/><link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"/></head><body><a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">LONG</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <div class="nav-menu">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="dropdown">
+          <button class="dropdown-trigger" aria-expanded="false">Projects <span>▾</span></button>
+          <div class="dropdown-menu">
+            <a href="index.html#projects">All Projects</a>
+            <a href="project1.html">Football Prediction Project</a>
+            <a href="project2.html">Degree Classification Support Tool</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropdown-trigger" aria-expanded="false">Research <span>▾</span></button>
+          <div class="dropdown-menu">
+            <a href="index.html#research-projects">All Research</a>
+            <a href="research1.html">MBA Thesis</a>
+            <a href="research2.html">CS Thesis: Data Backup</a>
+          </div>
+        </li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav-social">
+        <li><a href="https://linkedin.com/in/sy-long-dinh-b7886b200/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></li>
+        <li><a href="https://www.facebook.com/sy.long.75" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a></li>
+        <li><a href="https://github.com/longsy10" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>
+        <li><a href="mailto:sylongdinh@gmail.com" aria-label="Email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"></path><path d="m22 6-10 7L2 6"></path></svg></a></li>
+      </ul>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
-</html>
+  </div>
+</header><main id="main-content">
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Personal Portfolio</div>
+      <h1>Hi, I'm <span class="accent">Long.</span></h1>
+      <p class="hero-copy">A Teaching Assistant, Computer Science graduate, and MBA holder. I build practical things, support students, and keep learning through life, work, and research.</p>
+      <div class="button-row"><a class="btn" href="#projects">Check out my work</a><a class="btn-secondary" href="about.html">About me</a></div>
+      <div class="stat-grid">
+        <div class="stat-card"><strong>Role</strong><br/>Teaching Assistant at British University Vietnam</div>
+        <div class="stat-card"><strong>Education</strong><br/>BSc Computer Science + MBA</div>
+        <div class="stat-card"><strong>Focus</strong><br/>Student support, projects, and applied research</div>
+        <div class="stat-card"><strong>Approach</strong><br/>Grounded, practical, and always learning</div>
+      </div>
+    </div>
+    <div class="hero-visual"><div class="portrait-card"><img src="images/background.jpg" alt="Portrait of Long Dinh" style="width:100%;height:100%;object-fit:cover;border-radius:24px;position:relative;z-index:1;"></div></div>
+  </div>
+</section>
+<section class="section section-dark">
+  <div class="container">
+    <div class="eyebrow">Identity</div>
+    <h2 class="section-title">A professional journey with a human core.</h2>
+    <p class="section-intro">I combine academic support, technical delivery, and research thinking. This portfolio highlights how I help learners grow while building systems that solve real problems.</p>
+    <div class="button-row"><a class="btn-ghost" href="about.html">Read more about me</a></div>
+  </div>
+</section>
+<section id="projects" class="section section-light">
+  <div class="container">
+    <div class="section-header"><div><div class="eyebrow">Projects</div><h2 class="section-title">Featured Projects</h2><p class="section-intro">Projects built for practical use, learning outcomes, and measurable impact.</p></div></div>
+    <div class="grid-2">
+      <article class="card"><div class="card-media"><img src="images/soccer-ball.jpg" alt="Football project visual"></div><h3>Football Match Prediction System</h3><p>Built a data-driven workflow to analyze match trends and generate prediction insights. Designed to improve statistical interpretation and model explainability for non-technical users.</p><div class="tag-row"><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Data Visualization</span></div><div class="card-actions"><a class="btn" href="project1.html">View Project</a><a class="btn-secondary" href="contact.html">Request Source</a></div></article>
+      <article class="card"><div class="card-media"><img src="images/csharp-logo.png" alt="Academic tool visual"></div><h3>Degree Classification Support Tool</h3><p>Developed a tool to standardize classification logic and reduce manual calculation errors. The project improves consistency and saves time in academic support workflows.</p><div class="tag-row"><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">SQL</span></div><div class="card-actions"><a class="btn" href="project2.html">View Project</a><a class="btn-secondary" href="contact.html">Discuss Details</a></div></article>
+    </div>
+  </div>
+</section>
+<section id="research-projects" class="section section-light">
+  <div class="container">
+    <div class="section-header"><div><div class="eyebrow">Research</div><h2 class="section-title">Research Work</h2><p class="section-intro">Academic work that connects data, education, and practical decision-making.</p></div></div>
+    <div class="grid-2">
+      <article class="card"><div class="card-media"><img src="images/academia-logo.png" alt="MBA research visual"></div><h3>MBA Thesis: Entrepreneurship Education at BUV</h3><p>Examined how entrepreneurship education influences students' entrepreneurial intentions at British University Vietnam, with practical recommendations for curriculum and support.</p><div class="tag-row"><span class="tag">MBA Research</span><span class="tag">SEM</span><span class="tag">ANOVA</span></div><div class="card-actions"><a class="btn" href="research1.html">Read Summary</a><a class="btn-secondary" href="contact.html">Request Abstract</a></div></article>
+      <article class="card"><div class="card-media"><img src="images/softwaretesting-logo.png" alt="Data backup thesis visual"></div><h3>Undergraduate CS Thesis: Data Backup Techniques</h3><p>A comparative study of backup methods, file structures, and efficiency trade-offs, with recommendations for practical commercial use.</p><div class="tag-row"><span class="tag">Computer Science</span><span class="tag">Data Backup</span><span class="tag">Comparative Study</span></div><div class="card-actions"><a class="btn" href="research2.html">Read Summary</a><a class="btn-secondary" href="contact.html">Discuss Research</a></div></article>
+    </div>
+  </div>
+</section>
+<section class="section section-dark">
+  <div class="container">
+    <div class="eyebrow">Capabilities</div>
+    <h2 class="section-title">Jack of some trades. Student of life.</h2>
+    <p class="section-intro">I don't know everything — but here's a growing list of things I've learned, and am still learning. From supporting students and building digital things to exploring how tech can be more human.</p>
+    <div class="logo-grid">
+      <div class="logo-tile"><img src="images/python-logo.png" alt="Python logo"><div><strong>Python</strong><span>Scripting, analytics, and educational tooling</span></div></div>
+      <div class="logo-tile"><img src="images/java-logo.png" alt="Java logo"><div><strong>Java</strong><span>Backend logic, APIs, and application design</span></div></div>
+      <div class="logo-tile"><img src="images/linux-logo.png" alt="Linux logo"><div><strong>Linux</strong><span>Command line, server setup, and workflow automation</span></div></div>
+      <div class="logo-tile"><img src="images/htmlcssjs-logo.png" alt="Web development logo"><div><strong>Web Development</strong><span>HTML, CSS, JavaScript, and Firebase foundations</span></div></div>
+    </div>
+  </div>
+</section>
+<section class="section section-light">
+  <div class="container">
+    <div class="eyebrow">Contact</div>
+    <h2 class="section-title">Get in touch</h2>
+    <p class="section-intro">I am open to teaching opportunities, collaborative projects, and research conversations.</p>
+    <div class="contact-grid">
+      <div class="contact-card"><small>Email</small><a href="mailto:sylongdinh@gmail.com">sylongdinh@gmail.com</a></div>
+      <div class="contact-card"><small>LinkedIn</small><a href="https://linkedin.com/in/sy-long-dinh-b7886b200/" target="_blank" rel="noopener noreferrer">View profile</a></div>
+    </div>
+    <div class="button-row"><a class="btn" href="contact.html">Open contact page</a></div>
+  </div>
+</section>
+</main><footer class="site-footer"><div class="container footer-grid"><p class="footer-copy">© 2026 Long Dinh. Built with purpose.</p><div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="project1.html">Projects</a><a href="research1.html">Research</a><a href="contact.html">Contact</a></div></div></footer><script src="site.js"></script></body></html>
